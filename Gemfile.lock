@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (10.3.2)
+    whiskey_disk (0.6.24)
+      rake
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  whiskey_disk

@@ -1,0 +1,2379 @@
+﻿body
+{
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    background-color: #fff;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+.dvNoPartsFound
+{
+    padding-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+hr {
+    background-color: #D5D5D5;
+    border: medium none;
+    color: #D5D5D5;
+    height: 1px;
+}
+
+.moduleHorizCol
+{
+    width: 25%;
+}
+
+.YMMSelection
+{
+  height: 60px;
+  margin-top: 50px;
+  padding-left : 58px;
+  width: 712px;   
+}
+
+.noparts
+{
+    font-size: 2.0em;
+}
+
+.expander, a.expander:focus
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12pt;
+	color: White;
+	cursor: pointer;
+}
+
+.expander:hover
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12pt;
+	color: White;
+	cursor: pointer;
+}
+
+.FilterItem
+{
+	font-size: 8pt;
+	text-decoration: none;
+	color: Black;
+	cursor: pointer;
+}
+
+.FilterItem:hover
+{
+	text-decoration: underline;
+}
+
+a:visited
+{
+	color: Blue;
+}
+
+/* Main Content
+-----------------------------------------------------------*/
+.highlight
+{
+    color: Red;
+}
+
+.filterHighlight
+{
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1B69D8'); /* for IE */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1B69D8)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #52A1F3,  #1B69D8); /* for firefox 3.6+ */ 
+}
+
+.dvMainContent
+{
+	/*padding-top: 5px;*/
+}
+
+#btnContinueVehicle
+{
+    
+}
+
+.tblVehicleLookup
+{
+	text-align: left;
+	border: solid 1px #A5A5A5;
+	background-color: #F2F2F2;
+	width: 100%;
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;
+	border-bottom-left-radius:7px;
+	border-bottom-right-radius:7px;
+}
+
+.breadCrumb
+{
+	/*width: 475px;*/
+	width:90%;
+	word-wrap:break-word;
+}
+
+.searchText
+{
+	font-size: 8pt;
+}
+
+.txtSearch
+{
+	width: 80%;
+	color: Gray;
+}
+
+
+.dvSearch
+{
+	width:90%;
+	padding: 5px;
+	vertical-align:middle;
+	background-color: #F2F2F2;
+	/*
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;
+	border-bottom-left-radius:7px;
+	border-bottom-right-radius:7px;
+	border: solid 1px #CBCBCB;
+	position: absolute;
+	text-align:right;
+	right: 20px;
+	top: 0px;*/
+}
+
+.spnVehModHead
+{
+	font-size: 14pt;
+}
+
+.vehicleModuleHeader
+{
+	background-color: #52A1f3;
+	color: White;
+	font-weight: bold;
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1B69D8'); /* for IE */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1B69D8)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #52A1F3,  #1B69D8); /* for firefox 3.6+ */ 
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	font-size: 8pt;
+	vertical-align:middle;
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;
+	border-bottom-left-radius:7px;
+	border-bottom-right-radius:7px;
+	border:solid 1px black;
+	width: 120px;
+}
+
+#spnUserVehHeaderModule
+{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#spnUserVehHeader
+{
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.spnPartCount
+{
+	font-size: large;
+	font-weight: bold;
+}
+
+.submit_vehicle
+{
+    background-color:Green;
+    border: 1px solid black;
+    border-radius: 7px 7px 7px 7px;
+    color: White;
+    font-size: 14pt;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    vertical-align: middle;
+    width: 120px;	
+    height: 50px;
+    cursor: pointer;
+}
+
+.hrReset
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 8pt;
+	padding-left: 5px;
+}
+
+.searchArea
+{
+	text-align: right;
+	width: 250px;
+}
+
+.removalHL
+{
+	text-decoration: none;
+	color: Black;
+	font-weight: bold;
+}
+.removeX
+{
+	color: Red;
+}
+
+.tblLayout
+{
+	width: 100%;
+}
+
+.header
+{
+	width: 100%;
+}
+
+.footer
+{
+	width: 100%;
+}
+
+.leftNav
+{
+	width: 20%;
+	vertical-align:top;
+	padding-top: 5px;
+}
+
+.leftGutter
+{
+	width: 0.5%;
+}
+
+.midGutter
+{
+	width: 1%;
+}
+
+.rightGutter
+{
+	width: 0.5%;
+}
+
+.mainContent
+{
+	width: 78%;
+	vertical-align:top;
+	padding-top: 5px;
+}
+
+#dvPartTypeFilter
+{
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.brandLogo
+{
+	height: 40px;
+	max-width: 180px;
+}
+
+.CategoryView
+{
+	font-size: large;
+	font-weight: bold;
+}
+
+.txtPartTypeSearch
+{
+    left: 10px;
+    width: 70%;
+	color: Gray;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #CCCCCC;
+	position: relative;
+}
+
+.contentDiv
+{
+	z-index: -1;
+	vertical-align: top;
+}
+
+.contentDivLoading
+{
+	/*filter: Alpha(Opacity=60); -moz-opacity:0.4; opacity: 0.4;
+    background-color: #999999;*/
+    position: relative;
+    vertical-align: top;
+    z-index: 100;
+    top: 0px; left: 0px;
+}
+
+.prodDescrList
+{
+    width: 100%;
+}
+
+.dvLoading
+{
+    background-color: white;
+    border: solid 4px black; position: absolute;
+    border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+    top: 300px;
+    left: 40%;
+    z-index: 100;
+    width: 130px;
+    height: 50px;
+    padding: 0px;	
+    text-align:center;
+}
+
+.pdBrandImage
+{
+    float: left;
+}
+
+#FitMentSubModel
+ {
+     width: 150px;
+ }
+ 
+ #FitMentModel
+ {
+     width: 150px;
+ }
+ 
+ #FitMentEngine
+ {
+     width: 150px;
+ }
+ 
+ #FitMentFuel
+ {
+     width: 150px;
+ }
+ 
+ #FitMentAspiration
+ {
+     width: 150px;
+ }
+ 
+ #FitMentVin
+ {
+     width: 150px;
+ }
+ 
+ #FitMentMake
+ {
+     width: 150px;
+ }
+ 
+ #FitMentYear
+ {
+     width: 150px;
+ }
+
+.pdPartNumber
+{
+    font-weight: bold; font-size:14pt;
+}
+
+.tdFit {
+    width: 75px;
+}
+
+.dvLoadingSide
+{
+    background-color: white;
+    border: solid 4px black; position: absolute;
+    border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+    top: 400px;
+    left: 50px;
+    z-index: 100;
+    width: 130px;
+    height: 50px;
+    padding: 0px;	
+    text-align:center;
+    display: block;
+}
+
+.prodDescPricing
+{
+    width: 25;
+    text-align: right;
+    color: Red;
+}
+
+#dvNav
+{
+	z-index: 999;
+}
+
+#dvBrand
+{
+	width: 100%;
+}
+
+.partTypeGrid
+{
+	width: 100%;
+	text-align: left;
+}
+
+.partTypeGridImage
+{
+	vertical-align: middle;
+}
+
+.gridPaging
+{
+	border: 1px solid #D9D9D9;
+	background-color: #D9D9D9;
+}
+
+.gridDiv
+{
+	height: 125px;
+	vertical-align:middle;
+}
+
+.productHeader
+{
+	font-size: large;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.gridItem
+{
+	text-align:center;
+	width: 150px;
+	height: 150px;
+	border: 1px solid white;
+	border-right: dashed 1px #D5D5D5;
+	vertical-align: top;
+	cursor: pointer;
+	max-width: 130px;
+}
+
+.gridText
+{
+	color: #285EA6;
+	font-weight: bold;
+	word-wrap:break-word;
+}
+
+.gridItemClear
+{
+	width: 150px;
+	height: 150px;
+}
+
+.selectedPage
+{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.notselectedPage
+{   
+    font-weight:normal;
+	text-decoration: none;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset 
+{
+    border:1px solid #ddd;
+    padding:0 1.4em 1.4em 1.4em;
+    margin:0 0 1.5em 0;
+}
+
+legend 
+{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+textarea 
+{
+    min-height: 75px;
+}
+
+.editor-label 
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field 
+{
+    margin:0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+/*Brand Module
+-------------------------------------------------------*/
+.brandModuleSelect
+{
+	width: 85%;
+}
+
+/*FlyOut Hierarchy
+-------------------------------------------------------*/
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+#flyOutTop {
+	width: 100%;
+	float: left;
+	margin: 0px 0 0;
+	z-index: 999;
+}
+
+#flyOutSide {
+	width: 250px;
+	float: left;
+	margin: 0px 0 0;
+	z-index: 999;
+}
+ 
+.addPosition {	
+	position:relative;
+}
+
+.listTab {
+	z-index: 100;
+}
+
+/* Exand from the bottom */
+#flyOutListTop li {
+	list-style: none;
+	margin: 0 0 0px;
+	float: left;
+	z-index: 999;
+}
+
+#flyOutListTop a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px;
+	display: block;
+	/*width: 175px;*/
+	z-index: 999;
+}
+#flyOutListTop a:hover 
+{
+	background: #52A1F3; /* for non-css3 browsers */
+
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1A65D5', endColorstr='#52A1F3'); /* for IE */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#1A65D5), to(#52A1F3)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #1A65D5,  #52A1F3); /* for firefox 3.6+ */ 
+	
+	text-shadow: 0 1px 0 #000000;
+	z-index: 999;
+}
+
+#flyOutListTop ul, #flyOutListTop ul ul {
+	display: none;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	list-style:none;
+	background-color: #fff;
+	z-index: 999;
+}
+
+#flyOutListTop .listTab li {
+	margin: 0;
+	/*width: 175px;*/
+	z-index: 999;
+}
+#flyOutListTop .listTab a, #flyOutListTop .listTab a:hover {
+	/*width: 175px;*/
+	z-index: 999;
+}
+#flyOutListTop .listTab a {
+	padding: 5px 5px 5px 10px;
+	/*width: 175px;*/
+	z-index: 999;
+}
+#flyOutListTop li:hover ul ul, #flyOutListTop li:hover ul ul ul, #flyOutListTop li:hover ul ul ul ul {
+	display: none;
+	/*width: 175px;*/
+	z-index: 999;
+}
+#flyOutListTop li:hover ul, #flyOutListTop li li:hover ul, #flyOutListTop li li li:hover ul, #flyOutListTop li li li li:hover ul {
+	display: block;
+	/*width: 175px;*/
+	z-index: 999;
+}
+
+/* Expand Left to Right */
+#flyOutListSide li {
+	list-style: none;
+	margin: 0 0 0px;
+	float: left;
+	width: 260px;
+	z-index: 999;
+}
+
+#flyOutListSide a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px;
+	display: block;
+	width: 250px;
+	z-index: 999;
+}
+#flyOutListSide a:hover 
+{
+	background-color: #06F;
+	z-index: 999;
+}
+#flyOutListSide ul, #flyOutListSide ul ul {
+	display: none;
+	top: 0px;
+	left: 250px;
+	position: absolute;
+	background-color: #888;
+	z-index: 999;
+}
+
+#flyOutListSide .listTab li {
+	margin: 0;
+	z-index: 999;
+}
+#flyOutListSide .listTab a, #flyOutListSide .listTab a:hover {
+	width: 260px;
+	z-index: 999;
+}
+#flyOutListSide .listTab a {
+	padding: 5px 5px 5px 5px;
+	z-index: 999;
+}
+#flyOutListSide li:hover ul ul, #flyOutListSide li:hover ul ul ul, #flyOutListSide li:hover ul ul ul ul {
+	display: none;
+	z-index: 999;
+}
+#flyOutListSide li:hover ul, #flyOutListSide li li:hover ul, #flyOutListSide li li li:hover ul, #flyOutListSide li li li li:hover ul {
+	display: block;
+	z-index: 999;
+}
+
+.flyoutChild
+{
+	background: #52A1F3; /* for non-css3 browsers */	
+	text-shadow: 0 1px 0 #000000;
+	font-size: 8pt;
+	z-index: 999;
+	width: 185px;
+}
+.flyoutParentTOP
+{
+	background: #52A1F3; /* for non-css3 browsers */
+
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1A65D5'); /* for IE */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1A65D5)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #52A1F3,  #1A65D5); /* for firefox 3.6+ */ 
+	
+	text-shadow: 0 1px 0 #000000;
+	height: 45px;
+	z-index: 999;
+}
+.flyoutParentSIDE
+{
+	background: #52A1F3; /* for non-css3 browsers */
+
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1A65D5'); /* for IE */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1A65D5)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #52A1F3,  #1A65D5); /* for firefox 3.6+ */ 
+	
+	text-shadow: 0 1px 0 #000000;
+	z-index: 999;
+}
+
+/*
+Buttons
+-------------------------------------------------------------------*/
+.dci_button
+{
+	border: 1px solid #000000;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    height: auto;
+    overflow: visible;
+    padding: 4px;
+    border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-size: x-small;
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1B69D8'); /* for IE */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1B69D8)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #52A1F3,  #1B69D8); /* for firefox 3.6+ */ 
+}
+
+.dci_button_large
+{
+ 	border: 1px solid #777778;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    font-weight: bold;
+    height: auto;
+    overflow: visible;
+    padding: 4px;
+    border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1B69D8'); /* for IE */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1B69D8)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #52A1F3,  #1B69D8); /* for firefox 3.6+ */    
+}
+
+.dci_button_set_width
+{
+  	border: 1px solid #777778;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    height: auto;
+    overflow: visible;
+    padding: 4px;
+    border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-size: x-small;
+	width: 80px;  
+}
+
+.dci_button_set_width:hover
+{
+  	border: 1px solid #777778;
+    color: yellow;
+    cursor: pointer;
+    font-weight: bold;
+    height: auto;
+    overflow: visible;
+    padding: 4px;
+    border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-size: x-small;
+	width: 80px;  
+}
+
+.dci_button_padded
+{
+    padding: 10px;
+	border: 1px solid #777778;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    height: auto;
+    overflow: visible;
+    border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-size: small;
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1B69D8'); /* for IE */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1B69D8)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #52A1F3,  #1B69D8); /* for firefox 3.6+ */ 
+}
+
+.dci_button_padded:hover
+{
+    padding: 10px;
+	border: 1px solid #777778;
+    color: yellow;
+    cursor: pointer;
+    font-weight: bold;
+    height: auto;
+    overflow: visible;
+    border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-size: small;
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1B69D8'); /* for IE */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1B69D8)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #52A1F3,  #1B69D8); /* for firefox 3.6+ */ 
+}
+.dci_button
+    {
+	    border: 1px solid #000000;
+        color: black;
+        cursor: pointer;
+        font-weight: bold;
+        height: auto;
+        overflow: visible;
+        padding: 4px;
+        border-top-left-radius:10px;
+	    border-top-right-radius:10px;
+	    border-bottom-left-radius:10px;
+	    border-bottom-right-radius:10px;
+	    font-size: x-small;
+	    min-width: 40px;
+		display: inline !important;
+	    /*display: inline !important;*/
+	    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1B69D8'); /* for IE */
+	    /*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1B69D8)); /* for webkit browsers */
+	    /*background: -moz-linear-gradient(top,  #52A1F3,  #1B69D8); /* for firefox 3.6+ */ 
+    }
+.dci_button:hover
+{
+	border: 1px solid #777778;
+    color: yellow!important;
+    background-color: #09B833!important;
+    cursor: pointer;
+    font-weight: bold;
+    height: auto;
+    overflow: visible;
+    padding: 4px;
+    border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+/*Vehicle 
+-------------------------------------------------------*/
+.SubmitVehicleLookUp
+{
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1B69D8'); /* for IE */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1B69D8)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #52A1F3,  #1B69D8); /* for firefox 3.6+ */ 
+    color: white;
+    cursor: pointer;
+    width: auto;
+
+    overflow: visible;
+    font-weight: bold;
+    margin-left:5px;
+}
+
+.SubmitVehicleLookUp:hover
+{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-left:5px;
+}
+
+.Engine_DropDowns
+{
+    margin:1px 1px  1px  1px ;
+}
+
+.EngineDropDowns
+{
+    width:90%;
+    padding: 2px;  
+}
+
+.DropDowns {
+    margin: 0 0 5px;
+    width: 100%;
+}
+
+.DropDownsModule
+{
+    margin: 0 0 5px;
+    width: 100%;    
+}
+
+#dvVehicle #submitVehicleLookUp {
+    margin: 0 !important;
+}
+
+#dvVehicle #btnSubmitVehicleLookUp {
+    height: 32px;
+    width: 80px;
+}
+
+.Vehicle_DropDowns
+{   
+    margin:5px 5px  5px  5px ;
+}
+
+
+/*
+ Part Detail
+-----------------------------------------------*/
+.partDetail_Description
+{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.partDetail_ListPrice
+{   
+    width:100%;
+    margin-left: 15px;
+    margin-top: 15px;   
+}
+.partDetail_SellPrice
+{   
+    width:100%;
+    margin-left: 15px;
+    margin-top: 5px;   
+    color:Red;
+}
+
+.partDetail_AddToCart
+{   
+    margin-left:15px;
+    width:100%;
+}
+.partDetail_verifyVehicleFitment
+{
+    margin-left:97px;
+    font-size:small;
+    cursor: pointer;
+    margin-top:6px;
+    border:1px solid black;
+    width:150px;
+    text-align:center;
+}
+.partDetail_verifyVehicleFitment:hover
+{   
+    margin-left:97px;
+    font-size:small;
+    cursor: pointer;
+    margin-top:6px;
+    border:1px solid black;
+    width:150px;
+    background-color:#ccc;
+}
+.partDetail_Availability
+{   
+    margin-top:15px;    
+    margin-left:15px;
+}
+#spanAvailability
+{   
+    color:Gray;
+}
+#spanAvailabilityTag
+{   
+    color:Gray;
+    font-weight:bold;
+}
+.partDetail_ProductFeatures
+{   
+    margin-left: 15px;
+    margin-top: 5px; 
+}
+#spanpartDetail_ProductFeatures
+{   
+    font-weight:bold;
+}
+.partDetail_ProductFeaturesUL
+{     
+    margin-left:30px;
+}
+
+.spanpartDetail_FootNotes
+{   
+    font-weight:bold;
+}
+.partDetail_FootNotesUL
+{     
+    margin-left:30px;
+}
+
+.spnRequiredPartsWarning
+{
+    margin-left: 15px;
+    border: solid 1px black;
+    background-color: Yellow;
+    font-weight: bold;
+}
+
+.partDetail_Helpfullinformation
+{   
+    margin-left: 15px;
+    margin-top: 15px; 
+}
+.partDetail_HelpfullinformationUL
+{
+    margin-left:30px;
+}
+#spanpartDetail_Helpfullinformation
+{   
+     font-weight:bold;
+}
+.partDetail_tabs
+{      
+    height:500px;
+    overflow-y:hidden;
+}
+
+
+.partDetail_FullSizeImage {	
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover; z-index:9999999; position:absolute;
+top:0;
+left:0;height:100%;width:100%
+}
+
+.partDetail_VerifyVehicleFitmentDialog
+{
+	width: 500px;
+}
+
+#partDetail_contentHolder
+{
+	width: 100%;
+}
+
+/*
+Debug
+----------------------------------------------*/
+.dvDebug
+{
+	top: 30%;
+	left: 40%;
+	position: absolute;
+	z-index: 9999;
+	height: 600px;
+	width: 700px;
+	border: 1px solid black;
+	background-color: White;
+	overflow:scroll;
+}
+
+/*
+Feedback
+-----------------------------------------------*/
+.dvFeedback
+{
+	top: 10%;
+	left: 20%;
+	position: absolute;	
+	height: 350px;
+	width: 500px;
+	border: 1px solid black;
+	background-color: White;
+}
+
+.feedbackTable
+{
+	width: 100%;
+}
+.dvFeedback_Drag
+{   
+    cursor:move; 
+    text-align:center; 
+    font-size:small;
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1B69D8'); /* for IE */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1B69D8)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #52A1F3,  #1B69D8); /* for firefox 3.6+ */ 
+    border: 1px solid #777778;
+    color: black;
+}
+
+.labelGreen
+{
+	color: Green;
+}
+
+.labelRed
+{
+	color: Red;
+}
+
+/*
+ Part List
+-----------------------------------------------*/
+.dvListItem
+{
+	cursor: default;
+	background-color: White;
+	border: none;
+	z-index: 999;
+}
+
+.dvListItemHover
+{
+	cursor: pointer;
+	background-color: #CCC;
+	border: solid 1px gray;
+	z-index: 999;
+}
+
+.dci_partlist_image
+{
+	max-width: 125px;
+	max-height: 125px;
+}
+
+.partListImageContainer
+{
+	width: 125px;
+	height: 125px;
+	text-align:center;
+}
+
+.dci_partlist_table
+{
+	width: 100%;
+}
+
+.dci_partlist_table_image
+{
+	width:25%;
+}
+
+.dci_partlist_description
+{
+	width: 50%;
+}
+
+.dci_partlist_pricing
+{
+	width: 25%;
+}
+
+.dci_partlist_partnumbervalue
+{
+	font-weight: bold;
+	color: #285EAC;
+}
+
+.dci_partlist_partDescription_div
+{
+	padding-top: 10px;
+}
+
+.dci_listpricevalue
+{
+	color: Gray;
+}
+
+.dci_listprice
+{
+	color: Gray;
+}
+
+.dci_sellprice
+{
+	color: Red;
+}
+
+.dci_sellpricevalue
+{
+	color: Red;
+}
+
+/*
+Paging
+-----------------------------------------------*/
+.pagingButtons
+{
+	font-size: 8pt;
+}
+
+/*
+Filtering
+-----------------------------------------------*/
+#FilterContainer
+{
+	width: 100%;
+}
+
+.dvOTFFiltering
+{
+	border: 1px solid #D9D9D9;
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1B69D8'); /* for IE */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1B69D8)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #52A1F3,  #1B69D8); /* for firefox 3.6+ */ 
+	color: White;
+}
+
+.ViewMore
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: Black;
+	font-size: 8pt;
+}
+
+.FilterContainerLeftAlign
+{
+	font-size: 1.0em!important;
+	text-align: left;
+	border: solid 1px #A5A5A5;
+	background-color: #F2F2F2;
+	width: 100%;
+}
+
+.FilterContainerLeftAlignModule
+{
+ 	text-align: left;
+	border: solid 1px #A5A5A5;
+	background-color: #F2F2F2;   
+}
+
+.FilterContainer
+{
+	text-align: center;
+	border: 1px solid #D9D9D9;
+	background-color: #F2F2F2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.FilterContainerVehicle
+{
+	text-align: center;
+	border: 1px solid #D9D9D9;
+	background-color: #F2F2F2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	left: 29%;
+	position: absolute;
+}
+
+.searchWithin
+{
+	width: 90%;
+	color: Gray;
+}
+
+.searchWithinIndexed
+{
+	width: 90%;
+	color: Gray;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #CCCCCC;
+}
+
+.spnSuperCatHeaderModule
+{
+	font-weight: bold;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: Black;
+	padding-left: 5px;
+	position: relative;
+	background-image: url("http://resources.v12.estore.catalograck.com/Content/Images/GrayBG.png") !important;
+	background-repeat: repeat-x;
+	border: solid 1px #A5A5A5;    
+}
+
+.spnSuperCatHeader
+{
+	width: 100%;
+	font-weight: bold;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: Black;
+	padding-left: 5px;
+	position: relative;
+	left: -4px;
+	background-color:#A5A5A5;
+	/*background-image: url("http://resources.v12.estore.catalograck.com/Content/Images/GrayBG.png") !important;
+	background-repeat: repeat-x;*/
+	/*border: solid 1px #A5A5A5;*/
+}
+
+.FilterContainerHeader
+{
+	background-color: #C90808!important;
+	color: White!important;
+	font-weight: bold;
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1B69D8'); /* for IE */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1B69D8)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #52A1F3,  #1B69D8); /* for firefox 3.6+ */ 
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	font-size: 1.2em!important;
+}
+
+.FilterCheckBox
+{
+}
+
+.dvBrandPartial
+{
+	padding-left: 5px;
+}
+
+.filterHidden
+{
+	display: none;
+	position: relative;
+	text-align: left;
+}
+
+.filterVisible
+{
+	display: block;
+	left: -4px;
+	position: relative;
+}
+
+.filterHref
+{
+	font-size: 8pt;
+}
+
+/*
+Dealer Locator
+------------------------*/
+.DLHeaderText
+{
+	font-weight: 800;
+	font-size: 3.5em;
+	padding-bottom: 10px;
+	font-family: Arial;
+}
+
+.DLResultsHeaderText
+{
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 2.0em;
+    padding-bottom: 10px;
+}
+
+.DLAboutText
+{
+	padding-bottom: 20px;
+}
+
+.iDQfilterTextSmall
+{
+    font-size: small;
+}
+
+
+#dvUSMoreFiltering
+{
+    font-size: small;
+}
+
+#dvCANMoreFiltering
+{
+    font-size: small;
+}
+
+#txtCANDealerZip
+{
+    width: 180px;   
+}
+
+.filteringHref
+{
+    color: Gray;
+}
+
+.tblDealerLocator
+{
+	width:100%;
+}
+
+.tdDealerText
+{
+	background-color: #D0D0D2;	
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.DLUSDealersText
+{
+	padding-left: 3px;
+	font-weight:bold;
+}
+
+.DLCANDealersText
+{
+	font-weight:bold;
+	padding-left: 3px;
+}
+
+.DLINTLDealersText
+{
+	font-weight:bold;
+	padding-left: 3px;
+}
+
+.DLONLINEDealersText
+{
+	font-weight:bold;
+	padding-left: 3px;
+}
+
+.DLChainText
+{
+	font-weight:bold;
+	padding-left: 3px;
+	background-color: #D0D0D2;	
+	padding-top: 1px;
+	padding-bottom: 1px;
+	width: 80%;
+}
+
+.tblDLResults
+{
+	
+}
+
+.DLResultsNav
+{
+	
+}
+
+.DLResultsMap
+{
+	
+}
+
+.DLMap
+{
+	max-width: 700px;
+	min-width: 400px;
+	height: 500px;
+	border: 1px solid black;
+}
+
+.DLMapFooterText
+{
+	padding-top: 5px;
+}
+
+#selINTCountry
+{
+    border: 1px solid #D0D0D2;
+    width: 85%;
+}
+
+.idqZipText
+{
+    width: 200px;
+    border: solid 1px #D0D0D2;
+}
+
+.tblOnlineDealers
+{
+	width:100%;
+	text-align:center;
+}
+
+.OnlineDealerCell
+{
+	width:50%;
+	padding-top: 10px;
+}
+
+.USDealerIcon
+{
+	background-image: url('/CustomerSpecific/Images/DealerUS.png');
+	background-repeat: no-repeat;
+	width:30px;
+}
+
+.CANDealerIcon
+{
+	background-image: url('/CustomerSpecific/Images/DealerCAN.png');
+	background-repeat: no-repeat;
+	width:30px;
+}
+
+.INTLDealerIcon
+{
+	background-image: url('/CustomerSpecific/Images/DealerINTL.png');
+	background-repeat: no-repeat;
+	width:30px;
+}
+
+.OnlineDealerIcon
+{
+	background-image: url('/CustomerSpecific/Images/DealerOnline.png');
+	background-repeat: no-repeat;
+	width:30px;
+}
+
+.ChainDealerIcon
+{
+	background-image: url('/CustomerSpecific/Images/DealerChain.png');
+	background-repeat: no-repeat;
+	width:30px;
+}
+
+.DealerRow
+{
+	height:30px;
+}
+
+.DLRowPadding
+{
+	height:20px;
+}
+
+.DLDirections
+{
+}
+
+.phoneNumber
+{
+	
+}
+
+.resultHeaderText
+{
+}
+
+.dvNarrowDirections
+{
+	border: 1px solid #D9D9D9;
+	background-color: #F2F2F2;
+	max-width: 700px;
+	min-width: 300px;
+}
+
+.customMapMarker {
+    color: black;
+    background-color: #FF776B;
+    font-weight: bold;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    width: 10px;     
+    white-space: nowrap;
+}
+
+#dvNoFitViewProducts
+{
+    width:50%;float: left;
+}
+
+#dvNoFitChangeVehicle
+{
+    width:50%;float: left;
+}
+
+.dvDLResultsListing
+{
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+ 
+   
+    #message
+    {
+        background-color: black;
+        padding: 10px;
+        border: 2px solid red;
+        color: white;
+        font-weight: bold;
+        height: 28px;
+        left: 50%;
+        margin-left: -70px;
+        position: absolute;
+        text-align: center;        
+        z-index: 9000;       
+    }
+    
+    .ui-tabs .ui-tabs-nav li
+    {
+        border-bottom: 0 none !important;
+        float: left;
+        height: 29px;
+        list-style: none outside none;
+        margin: 0 0.2em 1px 0;
+        padding: 0;
+        position: relative;
+        top: 1px;
+        white-space: nowrap;
+    }
+    
+    div.image-thumbnail
+    {
+        width: 405px;
+        height: 305px;
+        line-height: 300px;
+        text-align: center;
+    }
+    div.image-thumbnail img
+    {
+        vertical-align: middle;
+        max-height: 300px;
+        max-width: 300px;
+    }
+    
+    
+    
+    .imagesIndex
+    {
+    }
+    .imagesIndex span.title
+    {
+        height: 25px;
+        display: inline-block;
+        padding: 6px;
+        padding-bottom: 3px;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        margin-right: 3px;
+        -moz-border-radius: 8px 8px 0px 0px;
+        -webkit-border-top-right-radius: 8px;
+        -webkit-border-top-left-radius: 8px;
+    }
+    .imagesIndex span.title.selected
+    {
+        cursor: pointer;
+    }
+    .imageContainer
+    {
+        border: 1px solid black;
+        background-color: black;
+        -moz-border-radius: 20px 20px 0px 0px;
+        -webkit-border-top-right-radius: 20px;
+        -webkit-border-top-left-radius: 20px;
+    }
+    .applContainer
+    {
+        background-color: white;
+    }
+    .descriptionBox
+    {
+        border: 1px solid white;
+        text-align: center;
+        border-top: none;
+        width: 100%;
+        -moz-border-radius: 0px 0px 20px 20px;
+        -webkit-border-bottom-right-radius: 20px;
+        -webkit-border-bottom-left-radius: 20px;
+        color: white;
+        background-color: white;
+        margin-top: 10px;
+    }
+    .nav
+    {
+        display: block;
+        border: 2px solid black;
+        background-color: black;
+    }
+    .square-thumb
+    {
+        width: 60px;
+        height: 60px;
+        margin-left: 10px;
+        float: left;
+        cursor: pointer;
+        border: 0px black solid;
+        margin-bottom: 10px;
+    }
+    .ui-widget-content
+    {
+        background-color: white;
+        border: 1px solid #DDDDDD;
+        color: #333333;
+    }
+    .dialog-border
+    {
+        border: 1px black solid;
+    }
+    
+    .ui-dialog
+    {
+        overflow: visible !important;
+        margin-top: 30px;
+    }
+    
+    
+    
+    .scrollable
+    {
+        background: url("../..http://resources.v12.estore.catalograck.com/Content/Images/h300.png") repeat-x scroll 0 0 transparent;
+        border: 1px solid #CCCCCC;
+        height: 120px;
+        overflow: hidden;
+        position: relative;
+        width: 550px;
+    }
+    
+    .scrollableModule
+    {
+        background: url("../..http://resources.v12.estore.catalograck.com/Content/Images/h300.png") repeat-x scroll 0 0 transparent;
+        border: 1px solid #CCCCCC;
+        height: 120px;
+        overflow: hidden;
+        position: relative;
+        width: 425px;
+    }
+    
+    .scrollableModule .items
+    {
+        clear: both;
+        position: absolute;
+        width: 20000em;
+        padding-left: 10px;
+        padding-top: 15px;    
+    }
+    
+    .scrollable .items
+    {
+        clear: both;
+        position: absolute;
+        width: 20000em;
+    }
+    .items div
+    {
+        float: left;
+        width: 680px;
+    }
+    .scrollable img
+    {
+        background-color: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        float: left;
+        height: 75px;
+        margin: 20px 5px 20px 21px;
+        padding: 2px;
+        width: 100px;
+    }
+    .scrollable .active
+    {
+        border: 2px solid #000000;
+        cursor: default;
+        position: relative;
+    }
+    
+    
+    
+    .scrollable
+    {
+        float: left;
+    }
+    a.browse
+    {
+        background: url("../..http://resources.v12.estore.catalograck.com/Content/Images/hori_large.png") no-repeat scroll 0 0 transparent;
+        cursor: pointer;
+        display: block;
+        float: left;
+        font-size: 1px;
+        height: 30px;
+        margin: 40px 10px;
+        width: 30px;
+    }
+    a.right
+    {
+        background-position: 0 -30px;
+        clear: right;
+        margin-right: 0;
+    }
+    a.right:hover
+    {
+        background-position: -30px -30px;
+    }
+    a.right:active
+    {
+        background-position: -60px -30px;
+    }
+    a.left
+    {
+        margin-left: 0;
+    }
+    a.left:hover
+    {
+        background-position: -30px 0;
+    }
+    a.left:active
+    {
+        background-position: -60px 0;
+    }
+    a.up, a.down
+    {
+        background: url("../..http://resources.v12.estore.catalograck.com/Content/Images/vert_large.png") no-repeat scroll 0 0 transparent;
+        float: none;
+        margin: 10px 50px;
+    }
+    a.up:hover
+    {
+        background-position: -30px 0;
+    }
+    a.up:active
+    {
+        background-position: -60px 0;
+    }
+    a.down
+    {
+        background-position: 0 -30px;
+    }
+    a.down:hover
+    {
+        background-position: -30px -30px;
+    }
+    a.down:active
+    {
+        background-position: -60px -30px;
+    }
+    a.disabled
+    {
+        visibility: hidden !important;
+    }
+    
+    
+    
+    .PartDescritonHeader
+    {
+        float: left;
+        font-size: 14px;
+        padding: 6px 1px;
+        text-align: left;
+        width: 500px;
+        background: none repeat scroll 0 0 #6B6A60;
+        border-bottom: 1px solid #4E4E4E;
+        color: #FFFFFF;
+    }
+    
+    .partDetail_HelpfullinformationUL
+    {
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+    
+    
+    
+    .partDetail_verifyVehicleFitment
+    {
+        font-size: small;
+        margin-left: 20px;
+        margin-top: 6px;
+        width: 150px;
+    }
+    
+    .partDetail_verifyVehicleFitment:hover
+    {
+    }
+    
+    .partDetailHeaders
+    {
+        background-color: #C90808;
+	    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52A1F3', endColorstr='#1B69D8'); /* for IE */
+	    /*background: -webkit-gradient(linear, left top, left bottom, from(#52A1F3), to(#1B69D8)); /* for webkit browsers */
+	    /*background: -moz-linear-gradient(top,  #52A1F3,  #1B69D8); /* for firefox 3.6+ */ 
+        color: White;
+        font-size: 8pt;
+        font-weight: bold;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-top: 5px;
+        vertical-align: middle;
+    }
+    
+    
+    .dci_button_disabled
+    {   
+	       /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#474747'); /* for IE */
+	       /* background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#474747)); /* for webkit browsers */
+	       /* background: -moz-linear-gradient(top,  #999999,  #474747); /* for firefox 3.6+ */
+            border: 1px solid #777778;
+            border-radius: 10px 10px 10px 10px;
+            color: black;
+            cursor: pointer;
+            font-size: x-small;
+            font-weight: bold;
+            height: auto;
+            overflow: visible;
+            padding: 4px;
+    }
+    
+.doesitfit.sucess
+{
+   height: 50px; 
+   background-color: lightgreen; 
+   width: 100%; 
+   vertical-align: middle; 
+   display: table;  
+   text-align:center;
+}
+.doesitfit.fail
+{
+    height: 50px; 
+    background-color: red; 
+    width: 100%; 
+    vertical-align: middle; 
+    display: table;  
+    text-align:center;
+ }
+ 
+ .partCountText
+ {
+     color: Blue;
+     font-weight: bold;
+ }
+ 
+ .largeText
+ {
+     font-size: medium;
+ }
+ 
+ #dvVehicle #Vehicle {
+    height: 60px;
+    margin-top: -34px;
+    padding-left: 58px;
+    width: 712px;
+}
+
+#vehicleDisplay {
+    color: #000000;
+    width: 200px;
+}
+
+#dvVehicle .vehicleModuleHeader .spnVehModHead {
+    clear: both;
+    display: block;
+    font-size: 1.4em;
+}
+
+#dvVehicle #Vehicle > table tr > td:first-child {
+    padding: 0;
+    width: 200px;
+}
+
+#dvVehicle .tblVehicleLookup > tbody > tr > td:nth-child(2), #dvVehicle .tblVehicleLookup > tbody > tr > td:nth-child(3), #dvVehicle .tblVehicleLookup > tbody > tr > td:nth-child(4) {
+    width: 133px;
+}
+
+#dvVehicle .dvOTFFiltering {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #D4D4D4;
+    background-image: none !important;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+}
+
+.iDQfilterText
+{
+    font-size: small;
+    font-weight: bold;
+}
+
+.preferredDealer
+{
+    background-color: #E7E7E8;
+    height: 195px;
+    border-bottom: 2px solid #C3C3C3;
+    white-space: nowrap;
+}
+
+.preferredDealerHeader
+{
+    background-color: #A8A9AD;
+    color: White;
+    font-weight: bold;
+    text-align:center;
+    
+}
+
+.dealerRecord
+{
+    padding-left: 10px;
+}
+
+.normalDealer
+{
+    height: 178px;
+    border-bottom: 2px solid #C3C3C3;
+    white-space: nowrap;
+}
+
+.dci_button_small
+{
+	border: 1px solid #777778;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    height: auto;
+    overflow: visible;
+    padding: 2px;
+    border-top-left-radius:6px;
+	border-top-right-radius:6px;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px;
+	font-size: x-small;    
+	top:5px;
+	position:relative;
+}
+
+.apqDescr
+{
+    font-weight: bold;
+    background-color: Highlight;
+    border: solid 1px black;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.mileText
+{
+    font-size: x-small;
+    color: #515151;
+}
+
+.distanceText
+{
+    font-size: 1.5em;
+    color: #515151;
+    font-weight: bold;
+}
+
+#dvDealerLocator
+{
+    padding: 40px;
+}
+
+.prodDescrImage
+{
+    max-width: 175px;
+    max-height: 175px;
+}
+
+.pinImage
+{
+    
+}
+
+#dvDLFilterResults
+{
+    white-space: nowrap;
+}
+
+#modal_media_message
+{
+    text-align: center;
+    color: Black;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 0.8em;
+}
+
+#media_message
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+#dvVideoTitle
+{
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align:center;
+}
+
+#dvVideoDescription
+{
+    text-align:center;
+}
+
+.dealerRecordRightColumn
+{
+    width: 75%;   
+}
+
+.dealerRecordLeftColumn
+{
+    width: 25%;
+    text-align: center;
+}
+
+#dvNoFitChangeVehicleInner
+{
+    background-color: #EEEEEE;  height: 350px;padding: 10px;
+}
+
+.customModalBackgroundScreen
+{
+    background: url("/Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png") repeat-x scroll 50% 50% #AAAAAA;
+    opacity: 0.6;
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#dvCopyright
+{
+    padding-top: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#dvImgModuleZoomButtons
+{
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+#media_holder_module
+{
+     width: 405px; height: 450px; background-color: White;
+        margin: 6px;
+}
+
+a
+{
+    color: #196AE5;
+    text-decoration: none;
+}
+
+.txtPartFilter
+{
+    width: 90%;
+}
+
+.txtPartTypeSearchLeftNav
+{
+    width: 90%;
+    color: Gray;
+}
+
+#dvVehicleSelection
+{
+    font-size: 0.9em!important;
+}
+
+#dvPartSelections
+    {
+        font-size: 0.9em!important;
+    }
+
+#dvEmailPart
+{
+    display: none;
+}
+
+#dvFitmentCTA
+{
+    color: black;
+    font-weight: bolder;
+    position: absolute;
+    background-image: url('http://resources.v12.estore.catalograck.com/Content/Images/CTABorder.png');
+    display: none;
+    padding: 3px;
+    font-size: 0.8em;
+	width: 99px;
+	height: 14px;
+}
+
+#dvPartListCTA
+{
+     color: black;
+    font-weight: bolder;
+    position: absolute;
+    background-image: url('http://resources.v12.estore.catalograck.com/Content/Images/CTABorderSolid.png');
+    display: none;
+    padding: 3px;
+    font-size: 0.8em;
+	width: 99px;
+	height: 14px;
+	z-index: 999;   
+}
+
+.spnSelectOption
+{
+    left: 20px;
+    position: relative;
+}
+
+.brandSelectionLogo
+{
+    width: 100%;
+    max-width:200px;
+    max-height: 200px;
+}
+
+.brandSelectionName
+{
+    font-size: x-large;
+    font-weight: bold;\
+    left: 20px;
+}
+
+.brandSelectionLogoTD
+{
+    max-width: 200px;
+    width: 20%;
+}
+
+.brandSelectionDesc
+{
+    font-size: 0.8em;
+}
+
+.cartTable
+{
+    margin-top: 5px;
+    background-color: Black;
+    border-spacing: 1px;
+    width: 100%;
+}
+
+.cartColumn
+{
+    background-color: White;
+}
+
+.cartColumnHeader
+{
+    font-size:1.0em;
+    font-weight:bold;
+    color:White;
+	background: #3246AC; /* for non-css3 browsers */
+    background-image: linear-gradient(to bottom, #3246AC 0%, #1D2973 100%); /* for IE 10 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3246AC', endColorstr='#1D2973'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#3246AC), to(#1D2973)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #3246AC,  #1D2973); /* for firefox 3.6+ */ 
+	text-align:center;
+}
+
+.cartQtyText
+{
+    width:25px;
+}
+
+.cartQtyColumn
+{
+    background-color: White;
+    text-align:center;
+    width:50px;
+}
+
+.cartPricingColumn
+{
+    background-color: White;
+    text-align: right;
+    width: 100px;
+}
+
+.cartTotalRow
+{
+    background-color: White;
+}
+
+.cartTotal
+{
+    color: Red;
+    font-weight: bold;
+} 
+
+.cartDeleteColumn
+{
+    width: 25px;
+    background-color: White;
+}
+
+.cartPartNumber
+{
+    margin-left: 10px;
+}
+
+.cartPartDescription
+{
+    margin-left: 10px;
+}
+
+.dvCart
+{
+    width: 90%;
+    margin-left: 5%;
+}
+#btnAddToCart
+{
+    color: black!important;
+    background-color: #09CF19!important;
+    cursor: pointer;
+    font-weight: bold;
+    height: auto;
+	width: 120px;
+    overflow: visible;
+    padding: 4px;
+    border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}

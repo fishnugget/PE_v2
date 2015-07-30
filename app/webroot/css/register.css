@@ -1,0 +1,22 @@
+.left-half-noborder {
+	width: 480px;
+	padding: 1em;
+	float: left;
+	clear: left;
+	margin: 1em 0 0 1em;
+}
+
+.right-half {
+	/*width: 380px;*/
+	float: right;
+	border: 1px #CCC solid;
+	padding: 1em;
+	margin: 1em 1em 0 0;
+	background: #EFEFEF;
+}
+
+.credits{
+	float: left;
+	clear: left;
+	width: 100%;
+}

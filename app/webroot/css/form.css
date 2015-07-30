@@ -1,0 +1,61 @@
+/*#billingInfo input[type=text], input[type=password], select{
+	width: 350px;
+	padding: 1px;
+}*/
+   #form .input {
+                clear: both;
+        }
+        
+   #form .input label {
+                float: left; width: 27%;
+        }
+        
+    #form .input input.text {
+                float: right; width: 50%;
+        }
+#billingInfo input[type="checkbox"]{
+	margin-top: 15px; 
+}
+#billingInfo label {
+	width: 220px;
+	text-align: right;
+	float: left;
+	margin-right: 10px;
+	line-height: 18px;
+	font-family: Verdana;
+}
+
+#billingInfo legend{
+	padding: 5px;
+	background: lightgray;
+	border: 1px solid black;
+}
+
+#billingInfo div.input{
+	float: left;
+	width: 100%;
+	clear: left;
+	margin: 5px 0;
+}
+#billingInfo select{
+	margin-top: 10px;
+	font-size: 18px;
+}
+#billingInfo .info-box{
+	margin: 14px 0;
+	float: left;
+	padding: 5px;
+	background: #ccc;
+	border-radius: 5px;
+	font-family: Verdana;
+	height: 21px;
+	overflow: hidden;
+}
+#billingInfo .info-box a{
+	text-align: right;
+	float: left;
+	margin-right: 10px;
+	font-family: Verdana;
+	text-decoration: none;
+	color: rgba(255,0,0,1)
+}

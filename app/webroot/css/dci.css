@@ -1,0 +1,112 @@
+body {margin:0;}
+/* transparent background-color */
+body,
+.FilterContainerHeader,
+.dvOTFFiltering,
+.FilterContainerLeftAlign,
+.vehicleModuleHeader,
+.dci_button,
+.partDetailHeaders,
+.tblVehicleLookup,
+.spnSuperCatHeader {background:none; background-image:none;}
+
+/* remove borders */
+.FilterContainerLeftAlign,
+.spnSuperCatHeader,
+.tblVehicleLookup,
+.dvOTFFiltering,
+.vehicleModuleHeader {border:none; border-radius:0;}
+
+/* hide all gutter elements and empty table elements */
+.midGutter,
+.leftGutter,
+.rightGutter,
+{display:none !important;}
+
+/** custom DCi Overrides **/
+/* text styles */
+a,
+a:visited,
+.gridText,
+h1,h2,h3,h4, .dci_partlist_partnumbervalue {color:#900;}
+
+a:hover,
+a:focus,
+a:active,
+.gridText:hover {color:#c00;}
+
+/* YMM styles */
+#dvVehicle #Vehicle {background:transparent url(http://catalograckestore.com/files/a_images_html5/ddw-sprite-wide.png) no-repeat -22px -168px !important; height: 60px;padding-left: 58px; width:712px;margin-top: -34px;}
+#dvVehicle #Vehicle > table tr > td:first-child {padding:0;width: 200px;}
+#dvVehicle .vehicleModuleHeader{background-image:none !important; line-height:120%; font-size: 1.3em; margin:0; padding:0;text-transform:uppercase; width:180px;}
+#dvVehicle .vehicleModuleHeader img {display:none;}
+#dvVehicle .vehicleModuleHeader .spnVehModHead{clear:both; display:block; font-size:1.4em;}
+#dvVehicle .tblVehicleLookup > tbody> tr > td:nth-child(2),
+#dvVehicle .tblVehicleLookup > tbody> tr > td:nth-child(3),
+#dvVehicle .tblVehicleLookup > tbody> tr > td:nth-child(4) {width: 133px;}
+#dvVehicle .dvOTFFiltering {background:#d4d4d4; background-image:none !important;}
+#dvVehicle #submitVehicleLookUp {margin:0 !important;}
+#dvVehicle #btnSubmitVehicleLookUp {background:transparent url(/files/a_images_html5/ddw-sprite.png) no-repeat left -360px;border:none; border-radius:0; height:32px; width:80px;}
+.DropDowns {width: 100%;margin:0 0 5px}
+#vehicleDisplay {color:#fff; width:100px;}
+#btnSubmitVehicleLookUp:hover {background: -moz-linear-gradient(top,  #4c4c4c 0%, #272727 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(100%,#272727));
+background: -webkit-linear-gradient(bottom,  #4c4c4c 0%,#272727 100%);
+background: -o-linear-gradient(bottom,  #4c4c4c 0%,#272727 100%);
+background: -ms-linear-gradient(bottom,  #4c4c4c 0%,#272727 100%);
+background: linear-gradient(to top,  #4c4c4c 0%,#272727 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#272727',GradientType=0 );}
+#btnSubmitVehicleLookUp {border:2px solid #666; margin: 8px 0px 0px 0px;font-size: 16px;color:#fff; cursor:pointer; font-weight:700; padding: 4px 30px; text-transform:uppercase;
+background: #4c4c4c;
+background: -moz-linear-gradient(top,  #4c4c4c 0%, #272727 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(100%,#272727));
+background: -webkit-linear-gradient(top,  #4c4c4c 0%,#272727 100%);
+background: -o-linear-gradient(top,  #4c4c4c 0%,#272727 100%);
+background: -ms-linear-gradient(top,  #4c4c4c 0%,#272727 100%);
+background: linear-gradient(to bottom,  #4c4c4c 0%,#272727 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#272727',GradientType=0 );
+zoom:1; }
+#btnClearVehicle {border:2px solid #000; color:#fff; cursor:pointer; font-weight:700; padding:5px 15px; text-transform:uppercase;
+background: #0042b8;
+background: -moz-linear-gradient(top,  #0042b8 1%, #092555 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#0042b8), color-stop(100%,#092555));
+background: -webkit-linear-gradient(top,  #0042b8 1%,#092555 100%);
+background: -o-linear-gradient(top,  #0042b8 1%,#092555 100%);
+background: -ms-linear-gradient(top,  #0042b8 1%,#092555 100%);
+background: linear-gradient(to bottom,  #0042b8 1%,#092555 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0042b8', endColorstr='#092555',GradientType=0 );
+zoom:1;}
+.dvOTFFiltering {background-image:none !important; background-color:#d3d3d3; color:#333;}
+
+/* left column styles */
+.FilterContainerLeftAlign {background:#fff; padding: 0px 10px 10px 10px;}
+.FilterContainerLeftAlign td {padding-bottom:10px;}
+.spnSuperCatHeader {background:#333; background-image:none !important; color:#fff;margin-top: 0px;}
+
+#dvSelections table * {font-weight:400; font-size:12px;}
+#spnUserVehHeader {font-weight:400; font-size:12px;}
+
+/* main content styles */
+.mainContent {background:#fff;}
+
+.doesitfit.sucess {background-color:#8cc0ff;} 
+
+#txtPartFilter, #txtSearch {box-shadow:inset 1px 1px 3px #333; border:1px solid #ccc; padding:8px;}
+
+.dvLoading {top:20%;}
+/* dropshadow */
+.FilterContainerHeader{box-shadow:0 2px 5px #333; font-size:110%; position:relative; text-transform:uppercase;}
+
+/* gradient background */
+.partDetailHeaders,
+.dci_button,
+.FilterContainerHeader{border:1px solid #e91500;
+background: #e91500 !important;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#e91500), color-stop(100%,#ca1900)) !important;
+background: -webkit-linear-gradient(top,  #e91500 1%,#ca1900 100%) !important;
+background: -o-linear-gradient(top,  #e91500 1%,#ca1900 100%) !important;
+background: -ms-linear-gradient(top,  #e91500 1%,#ca1900 100%) !important;
+background: linear-gradient(to bottom,  #e91500 1%,#ca1900 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e91500', endColorstr='#ca1900',GradientType=0 ) !important;
+zoom:1;
+}

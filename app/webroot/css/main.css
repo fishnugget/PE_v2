@@ -1,0 +1,205 @@
+/**
+ * All previously inline styles
+ */
+
+#cart-total {
+	width:100%; 
+	float:left; 
+	text-align:right; 
+	clear:both; 
+	padding:1em 0 0 0; 
+	border-top:1px #000000 dashed; 
+	margin-top:1em;
+}
+
+	#cart-total p {
+		float:right; 
+		font-size: 16px;
+	}
+
+table#member-charge, table#confirm-table, table#cart-table, table#receipt-table {
+	float:left; 
+	clear:left; 
+	text-align:center;
+	width: 100%;
+}
+
+	table#member-charge tr, table#confirm-table tr, table#cart-table tr, table#receipt-table tr {
+		padding:1em; 
+		text-align:center; 
+		background-color:#efefef; 
+		font-size:9px;
+	}
+	
+	table#member-charge .left {
+		text-align:left;
+	}
+	
+table#checkout-table {
+	float:left; 
+	clear:left; 
+	text-align:center;
+}
+
+	table#checkout-table tr {
+		padding:1em; 
+		text-align:center; 
+		background-color:#dddddd; 
+		font-size:10px;
+	}
+	
+	
+.titles.shipping-confirmation-title {
+	border-bottom:1px solid black; 
+	margin-bottom: 10px;
+}
+
+#shipping-form {
+	float:right; 
+	width:250px; 
+	margin:0 0 1em 0; 
+	border-left:1px #CCCCCC dashed; 
+	border-bottom:1px #CCCCCC dashed;
+}
+
+ 	#shipping-form .po-number {
+		padding-bottom:.25em; 
+		float:right; 
+		margin:0 0 1em 0; 
+		padding: 0; 
+		text-align: right;
+	}
+	
+	#shipping-form .po-number input {
+		padding-bottom:.25em; 
+		float:right; 
+		margin:0 0 1em 0; 
+		width: 100%; 
+		padding: 0;
+	}
+
+.notes-container {
+	float:right; 
+	clear: right; 
+	margin-right:.25em; 
+	margin:0 0 1em 0; 
+	width: 83%; 
+	text-align: left;
+}
+
+	.notes-container .notes-title {
+		float:right; 
+		clear:right; 
+		width: 83%; 
+		text-align: right;
+	}
+	
+	.notes-container textarea {
+		height:7em; 
+		width:100%; 
+		float:right; 
+		clear:right
+	}
+
+#billing-select-form {
+	float:left; 
+	clear:both; 
+	background-color:#CCCCCC; 
+	width:600px; 
+	padding:1em;
+}
+
+	#billing-select-form .second-address-radio {
+		 float:left; 
+		clear:left; 
+		margin-top: 15px;
+	}
+
+	#billing-select-form input.address-radio {
+		width: 30px; 
+		padding: 0;
+	}
+
+
+table#linecards {
+	width:100%; 
+	border:1px #000000 solid; 
+	margin:1em auto 10px auto; 
+	font-size:12px; 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	float:left
+}	
+
+	table#linecards tr.header {
+		background:#000000; 
+		color:#FFFFFF; 
+		padding:1em; 
+		text-align:center; 
+		font-weight:600;
+	}
+
+table#order-history-table {
+	text-align:center;
+}
+
+	table#order-history-table tr.order-history-header {
+		padding:1em; 
+		text-align:center; 
+		background-color:#efefef;
+	}
+
+.order-details-text-box {
+	color:#0964aa; 
+	font-size:18px; 
+	width:670px;
+}
+
+	.order-details-text-box input {
+		float: right;
+	}
+	
+	.order-details-text-box .invoice-header {
+		float:left; 
+		width:50%; 
+		font-size:24px;
+	}
+	
+	.order-details-text-box .invoice-number {
+		float:left; 
+		clear:left; 
+		width:50%;
+	}
+	
+	.order-details-text-box .invoice-date {
+		float:left; 
+		clear:left; 
+		width:50%;
+	}
+	
+table#details {
+	float:left; 
+	clear:left; 
+	text-align:center;
+}
+
+table#details tr.details-header {
+	background-color:#0964aa; 
+	color:#CCCCCC; 
+	font-size:10px
+}
+
+.shipping-label {
+	border-bottom:1px #000000 dashed; 
+	background-color:#efefef; 
+	width: 100%; 
+	text-align: right; 
+	float: left; 
+	margin-top: 20px;
+}
+
+.shipping-total {
+	font-size:24px; 
+	width: 100%; 
+	text-align:right; 
+	float:left;
+}

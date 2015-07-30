@@ -1,0 +1,7 @@
+staging:
+  domain: "centresource@pedistributors.com"
+  deploy_to: "/home/stage.pedistributors.com"
+  repository: "git@github.com:centresource/pedistributors"
+  branch: "staging"
+  post_setup_script: "bin/post-setup.sh"
+  post_deploy_script: "bin/post-deploy.sh"

@@ -1,0 +1,19 @@
+#vendors{
+	float: left;
+	clear: left;
+}
+
+.vendor-logo{
+	float: left;
+	width: 140px;
+	text-align: center;
+	height: 115px;
+	margin: 10px;
+	background: white;
+	border: 1px solid black;
+}
+
+	.vendor-logo img{
+		width: 120px;
+		max-height:  100px;
+	}
